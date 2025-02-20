@@ -8,7 +8,7 @@ const response = fetch('https://jsonplaceholder.typicode.com/users')
 function successCallback (response) {
     console.log('Fetch value' , response)  //
     response.json().then((result)=>{
-        console.log(result)
+        console.log(result) 
     })
 }
 
